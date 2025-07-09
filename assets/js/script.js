@@ -84,5 +84,10 @@ for (let i = 0; i < accordionBtn.length; i++) {
     this.classList.toggle('active');
 
   });
+    function openWatApp() {
+alert("hai");
+      const phone = document.getElementById('phone').value;
+      const link = "https://wa.me/91" ;
+      window.open(link, "_blank");
 
 }
